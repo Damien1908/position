@@ -1,7 +1,22 @@
 .larelative{
-    position: static;
-    top: 50px;
+    position: relative;
+    top: 300px;
     height: 200px;
     width: 100%;
     background-color: blueviolet;
+}
+.lAbsolute{
+    position: absolute;
+    top: 300px;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(orangered,limegreen) ;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    height: 150px;
+    width: 100%;
+    background: radial-gradient(rgb(43, 153, 226),blue);
+    z-index: 1;
 }
